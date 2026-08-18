@@ -1,4 +1,4 @@
-# LTI 1.3 Round 1 Reference Implementation
+# LTI 1.3 Reference Implementation
 
 ## Run it
 
