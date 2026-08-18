@@ -84,13 +84,13 @@ function classifyHttp_(status, body) {
  */
 function setupProperties() {
   PropertiesService.getScriptProperties().setProperties({
-    CANVAS_BASE_URL: 'https://wager-spending-puppy.ngrok-free.dev',
-    CANVAS_API_TOKEN: 'demo-canvas-token',
-    CANVAS_COURSE_ID: 'course-101',
-    AIRTABLE_PAT: 'patrbB8Y1i8SkVoLc.b5e2dee75bfe04dc7e1ff4ed64a7a16ec450329c9eaa741d05b75204dd044119',
-    AIRTABLE_BASE_ID: 'app5zNgfjzSiXj7SC',
-    ASANA_PAT: '2/1217511656843769/1217513000366109:302169f551a291a9d6e69d208ae1d0a0',
-    ASANA_PROJECT_GID: '1217512315307474',
+    CANVAS_BASE_URL: '',
+    CANVAS_API_TOKEN: '',
+    CANVAS_COURSE_ID: '',
+    AIRTABLE_PAT: '',
+    AIRTABLE_BASE_ID: '',
+    ASANA_PAT: '',
+    ASANA_PROJECT_GID: '',
   });
   Logger.log('Script properties set. Now clear the values from setupProperties().');
 }
