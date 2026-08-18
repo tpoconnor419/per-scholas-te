@@ -1,0 +1,7 @@
+.env
+.env.*
+.failure-mode.js
+.keys/
+node_modules/
+scripts/
+.clasp.json

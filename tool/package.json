@@ -1,0 +1,16 @@
+{
+  "name": "lti-tool",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+"scripts": {
+  "start": "node --env-file=.env src/server.js",
+  "dev": "node --watch --env-file=.env src/server.js",
+  "sync": "node --env-file=.env scripts/run-sync.js",
+  "test": "node --test"
+},
+  "dependencies": {
+    "express": "^4.19.2",
+    "jose": "^5.6.3"
+  }
+}
